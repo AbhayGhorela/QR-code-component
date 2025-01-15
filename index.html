@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    
 
     <link
       rel="icon"
@@ -31,8 +31,7 @@
         box-sizing: border-box;
         font-family: "outfit", sans-serif;
         width: 100%;
-        max-width: 1440px;
-        height: 100vh;
+        min-height: 100vh;
         background-color: var(--slate300);
         display: flex;
         justify-content: center;
@@ -59,9 +58,7 @@
       }
 
       img {
-        width: 100%;
-        max-width: 18rem;
-        max-height: 18rem;
+        max-width: 100%;
         align-self: center;
         border-radius: 1.2rem;
       }
@@ -89,25 +86,30 @@
     </style>
   </head>
   <body>
-    <div class="card">
-      <div class="qrCode">
-        <img src="./images/image-qr-code.png" alt="" />
-        <div>
-          <h2 class="heading">
-            Improve your front-end skills by building projects
-          </h2>
-          <p class="para">
-            Scan the QR code to visit Frontend Mentor and take your coding
-            skills to the next level
-          </p>
+    <main>
+      <div class="card">
+        <div class="qrCode">
+          <img src="./images/image-qr-code.png" alt="" />
+          <div>
+            <h2 class="heading">
+              Improve your front-end skills by building projects
+            </h2>
+            <p class="para">
+              Scan the QR code to visit Frontend Mentor and take your coding
+              skills to the next level
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://github.com/abhayghorela">Abhay Kumar Ghorela</a>.
-    </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/abhayghorela">Abhay Kumar Ghorela</a>.
+      </div>
+    </footer>
   </body>
 </html>
